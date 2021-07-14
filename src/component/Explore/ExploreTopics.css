@@ -1,0 +1,32 @@
+.explore{
+    background-image: url(../Images/nordwood-themes-R53t-Tg6J4c-unsplash.png);
+}
+.img1{
+    position:absolute;
+    z-index: 100;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.img2{
+    position:absolute;
+    z-index: 100;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 170px;
+
+}
+.img3{
+    position:absolute;
+    z-index: 100;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 400px;
+
+}
+
+table{border: none;}

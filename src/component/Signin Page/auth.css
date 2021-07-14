@@ -1,0 +1,96 @@
+.fb-link {
+  border: 1px solid #272727;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.fb-text p {
+  margin: 0;
+  color: #272727;
+}
+
+.form-input {
+  width: 100%;
+  border: 1px solid #3e3e3e73;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.form-input:focus {
+  outline: none;
+}
+
+.check-sign {
+  border: solid #00000073;
+}
+
+.label-sign {
+  color: #3d3d3d;
+}
+
+.form-btn {
+  background: linear-gradient(to right, #ff3334, #801a1a);
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.form-btn:hover {
+  color: #ffffff;
+}
+
+.new-account {
+  color: #587fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.double-line p {
+  color: #3d3d3d;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.white-space {
+  border-radius: 15px;
+  width: 40%;
+  height: 10px;
+  background-color: #ffffff;
+}
+
+.left-box {
+  padding: 30px 0;
+}
+
+.right-box {
+  background: linear-gradient(to bottom, #ff3334, #801a1a);
+  position: relative;
+}
+
+.right-box h3 {
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.right-box p {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+}

@@ -1,0 +1,24 @@
+.footer {
+  background-image: url(./Images/footer.png);
+  padding-bottom: 50px;
+  color: #848282;
+}
+.footer-logo {
+  height: 78px;
+  width: 200px;
+  margin-top: 100px;
+}
+.footer li {
+  list-style-type: none !important;
+  padding: 10px;
+}
+.link-section {
+  padding-top: 70px;
+  text-align: center;
+}
+.footer-logo{
+  display: flex;
+  margin: 0;
+  padding: 0%;
+  
+}

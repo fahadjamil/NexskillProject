@@ -1,0 +1,22 @@
+.graphic-design-main-div {
+  background-image: url(./Images/Group102.png);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.graphic-design-main-heading {
+  font-size: 50px;
+  font-weight: 500;
+  color: #fff;
+  padding-left: 10px;
+}
+.designing-buttons {
+  background-color: #5e5e5e8a;
+  width: 250px;
+  margin: 5px;
+  color: #fff;
+}
+.designing-buttons:focus {
+  background-color: #fff;
+  color: black;
+}

@@ -1,0 +1,31 @@
+.graphicDesignTop {
+  background-image: url(../Images/nordwood-themes-R53t-Tg6J4c-unsplash.png);
+}
+.second-background {
+  background-image: url(../Images/Path.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 600px;
+}
+.header {
+  background-color: #fff;
+  height: 50px;
+}
+
+.header .active {
+  color: #ae2223;
+  float: left;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.header .link {
+  color: #242424;
+  float: left;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.header .link:hover {
+  color: #ae2223;
+}
