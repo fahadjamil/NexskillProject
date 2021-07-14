@@ -1,6 +1,8 @@
 .footer {
   background-image: url(./Images/footer.png);
-  padding-bottom: 50px;
+  background-size: cover;
+  height: fit-content;
+  background-repeat: no-repeat;
   color: #848282;
 }
 .footer-logo {
@@ -14,11 +16,22 @@
 }
 .link-section {
   padding-top: 70px;
-  text-align: center;
+  text-align:left;
 }
 .footer-logo{
   display: flex;
   margin: 0;
   padding: 0%;
   
+}
+.footer-contact span{
+  font-weight: 100;
+}
+.footer-links{
+  width: 70px;
+  height: 70px;
+}
+.footer-contact th{
+  margin: 12px 12px 12px 12px;
+  padding: 12px 12px 12px 12px;
 }

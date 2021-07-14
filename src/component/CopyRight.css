@@ -3,3 +3,9 @@
     background-color: #fff;
     font-size: 15px;
 }
+.footer-links{
+    width: 60px;
+    height: 60px;
+    box-shadow:  3px 3px 3px rgba(105, 105, 107, 0.13);
+    border-radius: 50%;
+  }
