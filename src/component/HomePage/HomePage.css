@@ -297,86 +297,17 @@
   /* margin-top: 35px; */
 }
 .main-section-3 {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
-  /* width: 1366px; */
-  height: 530px;
+  
   background: #f3f3f3 0% 0% no-repeat padding-box;
-  /* padding-top: 100px; */
+  
 }
 .main-section-3-heading {
-  /* width: 334px;
-  height: 48px; */
-  /* text-align: center; */
+  
   font: normal normal bold 40px/40px Lato;
   letter-spacing: 0.8px;
   color: #3d3d3d;
 }
-/* .main-section-3-card {
-  display: flex;
-  flex-direction: row;
-  margin-top: 70px;
-} */
-.main-section-3-card-body {
-  width: 352px;
-  height: 264px;
-  /* margin: 25px; */
-}
-.main-section-3-card-btn {
-  width: 168px;
-  /* height: 48px; */
-  background: transparent linear-gradient(180deg, #df2c2d 0%, #701617 100%) 0%
-    0% no-repeat padding-box;
-  border-radius: 24px;
-  /* text-align: center; */
-  font: normal normal bold 16px/24px Lato;
-  letter-spacing: 0.38px;
-  color: #ffffff;
-  opacity: 1;
-  padding: 12px;
-  margin-top: 20px;
-}
-.main-section-3-card-detail {
-  /* width: 352px;
-  height: 74px;
-  text-align: left; */
-  font: normal normal 300 16px/26px Lato;
-  /* letter-spacing: 0.11px; */
-  color: #000000;
-  margin-top: 20px;
-}
-.main-section-3-cardcircle {
-  width: 92px;
-  height: 92px;
-  background: #bb2425 0% 0% no-repeat padding-box;
-  border-radius: 1000px;
-  margin-right: 20px;
-}
-/* .main-section-3-card-header {
-  display: flex;
-  flex-direction: row;
-} */
-.main-section-3-cardname {
-  /* margin-left: 40px; */
-  font: normal normal 300 27px/33px Lato;
-  letter-spacing: 0.14px;
-  color: #3d3d3d;
-}
-.main-section-3-cardname-sub {
-  /* text-align: left; */
-  font: normal normal 300 14px/17px Lato;
-  letter-spacing: 0.07px;
-  color: #3d3d3d;
-}
-.main-section-3-arrowleft {
-  transform: rotate(90deg);
-  margin-top: 20vh;
-}
-.main-section-3-arrowright {
-  transform: rotate(-90deg);
-  margin-top: 20vh;
-}
+
 .main-section-4 {
   /* display: flex;
   flex-direction: column; */
@@ -435,4 +366,17 @@ height: 48px; */
   letter-spacing: 0.8px;
   color: #3d3d3d;
   /* padding-bottom: 90px; */
+}
+.student1{
+  background-image: url(../../Assets/Saima\ Tariq\ -\ UIUX.jpeg);
+  background-size: 100px;
+}
+.student2{
+  background-image: url(../../Assets/Abu\ Bakar\ -\ Full\ Stack\ Python\ development.jpeg);
+  background-size: 170px;
+  background-position: center;
+}
+.student3{
+  background-image: url(../../Assets/Arooba\ Rehman\ -\ DMM.jpeg);
+  background-size: 100px;
 }

@@ -13,11 +13,14 @@ import Header from "../Header";
 
 import "./HomePage.css";
 
+import Scrollar from "./Scrollar";
+
 const HomePage = () => {
   return (
     <div className="main">
       <div className="main-section-1">
         <Header />
+
         <div className="main-body d-flex">
           <div className="body-content m-auto  col-md-4 offset-1">
             <div className="body-heading">Start Learning.</div>
@@ -67,7 +70,11 @@ const HomePage = () => {
               <div className="main-body-1-cards px-2 py-3 mt-4">
                 <div className="main-body-1-firstline">
                   {" "}
-                  <img src={image2} alt="img-three" className="main-body-1-img" />
+                  <img
+                    src={image2}
+                    alt="img-three"
+                    className="main-body-1-img"
+                  />
                   <span className="span">Earn a Certificate or Degree </span>
                 </div>
                 <div className="main-body-1-cards-detail mt-2">
@@ -78,7 +85,11 @@ const HomePage = () => {
               <div className="main-body-1-cards px-2 py-3 mt-4 ">
                 <div className="main-body-1-firstline">
                   {" "}
-                  <img src={image3} alt="img-four" className="main-body-1-img" />
+                  <img
+                    src={image3}
+                    alt="img-four"
+                    className="main-body-1-img"
+                  />
                   <span className="span">Upskill your Organization </span>
                 </div>
                 <div className="main-body-1-cards-detail mt-2">
@@ -113,64 +124,8 @@ const HomePage = () => {
       </div>
       <div className="main-section-3 d-flex align-items-center flex-column pt-5">
         <div className="main-section-3-heading">Student Feedback</div>
-        <div className="main-section-3-card d-flex flex-row align-items-center justify-content-center mt-5">
-          <RiArrowDropDownLine
-            size={20}
-            className="mb-5 main-section-3-arrowleft"
-          />{" "}
-          <div className="main-section-3-card-body mx-3">
-            <div className="main-section-3-card-header d-flex align-items-center">
-              <div className="main-section-3-cardcircle"></div>
-              <div className="main-section-3-cardname">
-                Student Name
-                <div className="main-section-3-cardname-sub">
-                  Character Designing
-                </div>
-              </div>
-            </div>
-            <div className="main-section-3-card-detail">
-              Lorem ispsum dolor sit amet, consetetur sadpipscing elitr, sed
-              diam nonumy eirmod tempor invidunt ut.
-            </div>
-            <div className="main-section-3-card-btn btn">Read More</div>
-          </div>
-          <div className="main-section-3-card-body mx-3">
-            <div className="main-section-3-card-header d-flex align-items-center">
-              <div className="main-section-3-cardcircle"></div>
-              <div className="main-section-3-cardname">
-                Student Name
-                <div className="main-section-3-cardname-sub">
-                  Character Designing
-                </div>
-              </div>
-            </div>
-            <div className="main-section-3-card-detail">
-              Lorem ispsum dolor sit amet, consetetur sadpipscing elitr, sed
-              diam nonumy eirmod tempor invidunt ut.
-            </div>
-            <div className="main-section-3-card-btn btn">Read More</div>
-          </div>
-          <div className="main-section-3-card-body mx-3">
-            <div className="main-section-3-card-header d-flex align-items-center">
-              <div className="main-section-3-cardcircle"></div>
-              <div className="main-section-3-cardname">
-                Student Name
-                <div className="main-section-3-cardname-sub">
-                  Character Designing
-                </div>
-              </div>
-            </div>
-            <div className="main-section-3-card-detail">
-              Lorem ispsum dolor sit amet, consetetur sadpipscing elitr, sed
-              diam nonumy eirmod tempor invidunt ut.
-            </div>
-            <div className="main-section-3-card-btn btn">Read More</div>
-          </div>
-          <RiArrowDropDownLine
-            size={20}
-            className="mb-5 main-section-3-arrowright"
-          />{" "}
-        </div>
+        <Scrollar/>
+ 
       </div>
       <div className="main-section-4 d-flex flex-column justify-content-center align-items-center">
         <div className="main-section-4-header">Ready To Talk?</div>
