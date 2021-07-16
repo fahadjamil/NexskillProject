@@ -8,44 +8,44 @@ const InteriorCourseContent = () => {
       <div className="container mx-5 my-3 px-5">
         <div className="row">
           <div className="col-md-4">
-            <div className="course-content-tab">
+             <div className="course-content-tab d-flex justify-content-center">
               <p>
-                Introduction of Interior Design (History, Style & Architecture)
+                Introduction of Interior Design 
               </p>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="course-content-tab">
+             <div className="course-content-tab d-flex justify-content-center">
               <p>Design styles</p>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="course-content-tab">
+             <div className="course-content-tab d-flex justify-content-center">
               <p>Space Planning</p>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="course-content-tab">
+             <div className="course-content-tab d-flex justify-content-center">
               <p>Color & Lighting</p>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="course-content-tab">
+             <div className="course-content-tab d-flex justify-content-center">
               <p>Interior finishes</p>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="course-content-tab">
-              <p>Furniture, Textiles & Fabric selection with Rendering</p>
+             <div className="course-content-tab d-flex justify-content-center">
+              <p>Furniture, Textiles & Fabric </p>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="course-content-tab">
-              <p>3D Modelling effects with or without Render</p>
+             <div className="course-content-tab d-flex justify-content-center">
+              <p>3D Modelling effects</p>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="course-content-tab">
+             <div className="course-content-tab d-flex justify-content-center">
               <p>Handling & Working with Clients</p>
             </div>
           </div>

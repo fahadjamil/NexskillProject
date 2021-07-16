@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useEffect} from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 import CopyRight from "../CopyRight";
@@ -12,6 +12,9 @@ import { Link } from "react-router-dom";
 import "./ExploreTopics.css";
 
 const ExploreTopics = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="explore">
       <Header />
@@ -35,13 +38,17 @@ const ExploreTopics = () => {
 
               <td>
                 <p className="img2">Marketing</p>
+                <Link to="/smm">
                 <img className="my-2" src={img3} alt="3" />
+                </Link>
               </td>
             </tr>
             <tr>
               <td>
                 <p className="img2">Development</p>
+                <Link to="/game">
                 <img src={img6} alt="4" />
+                </Link>
               </td>
               <td rowSpan="2">
                 <p className="img3">Personal Development</p>

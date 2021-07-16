@@ -1,5 +1,6 @@
 import React from "react";
 import nexskill from "./Images/Nexskilllogo.png";
+import { Link } from 'react-router-dom'
 import "./Footer.css";
 
 
@@ -9,7 +10,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-4 mt-5  py-5 ">
-            <img class="footer-logo" src={nexskill} alt="f-logo" />
+          <Link to="/">   <img class="footer-logo" src={nexskill} alt="f-logo" /></Link>
             <p className="footer-text">
               At NeXskill we believe that talent is universal and
               <br />
@@ -25,9 +26,9 @@ const Footer = () => {
               <div className="col-md-3">
                 <h3>Quick Links</h3>
                 <ul>
-                  <li>Home</li>
+                <Link to="/">  <li>Home</li></Link>
                   <li>About Us</li>
-                  <li>Contact</li>
+                  <a href="https://forms.gle/v61fz6DzmaZMXCNu9" target="_blank"> <li>Contact</li></a>
                   <li>Events</li>
                   <li>Blogs</li>
                 </ul>
@@ -39,7 +40,7 @@ const Footer = () => {
                   <li>Gallery</li>
                   <li>SEO</li>
                   <li>Certification</li>
-                  <li>Courses</li>
+                  <Link to="/allSubjects">  <li>Courses</li></Link>
                 </ul>
               </div>
               <div className="col-md-5 footer-contact">

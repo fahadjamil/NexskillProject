@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import AmazonPoster from "../AmazonPoster";
 import AmazonCourseDescription from "./AmazonCourseDescription";
 import AmazonCareerPath from "./AmazonCareerPath";
@@ -10,6 +10,9 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./AmazonCourse.css";
 
 const AmazonCourse = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <AmazonPoster />

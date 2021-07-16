@@ -8,22 +8,22 @@ const ContentCourseContent = () => {
       <div className="container mx-5 my-3 px-5">
         <div className="row">
           <div className="col-md-4">
-            <div className="course-content-tab">
+             <div className="course-content-tab d-flex justify-content-center">
               <p>Introduction to Content Writing</p>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="course-content-tab">
+             <div className="course-content-tab d-flex justify-content-center">
               <p>Introduction to types of content writing (Assignment) </p>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="course-content-tab">
+             <div className="course-content-tab d-flex justify-content-center">
               <p>Guide lines and tips of content writing</p>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="course-content-tab">
+             <div className="course-content-tab d-flex justify-content-center">
               <p>Difference and connection between 3c’s</p>
             </div>
           </div>

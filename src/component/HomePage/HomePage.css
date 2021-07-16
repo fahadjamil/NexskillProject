@@ -230,24 +230,41 @@
   margin-left: 20px;
 }
 .main-body-2 {
-  /* width: 1366px; */
-  height: 431px;
-  /* display: flex;
-  flex-direction: column; */
-  background-color: #f83132;
-  /* align-items: center;
-  justify-content: center; */
+  
+  padding: 5%;
+  background-size: cover;
+  background-image: url(../../Assets/My\ Post.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+ 
 }
+a:link{
+  text-decoration: none;
+  color: #848282 !important;
+}
+.video{
+  height:500px !important;
+  width:700px!important;
+  
+}
+.modal-dialog{
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.main-body-2-btn:focus .video{
+  display:block;
+} 
 .main-body-2-sub {
   font-weight: bold;
   font: normal normal 300 35px/40px Lato;
   letter-spacing: 0.7px;
-  color: #3d3d3d;
+  color: #fff !important;
 }
 .main-body-2-sub1 {
   font: normal normal bold 16px/24px Lato;
   letter-spacing: 0.16px;
-  color: #3d3d3d;
+  color: #fff !important;
   margin-top: 15px;
 }
 /* .main-body-2-btn {
@@ -274,10 +291,43 @@
   flex-direction: row;
   margin-top: 60px;
 } */
-.main-section-2-card-body {
+
+.main-section-2-card-body1 {
   width: 260px;
   height: 345px;
-  background: #a2a2a2 0% 0% no-repeat padding-box;
+  background-image: url(../../Assets/coursess-01.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-shadow: 3px 3px 10px #00000029;
+  border-radius: 17px;
+  margin-right: 20px;
+}
+.main-section-2-card-body2 {
+  width: 260px;
+  height: 345px;
+  background-image: url(../../Assets/coursess-02.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-shadow: 3px 3px 10px #00000029;
+  border-radius: 17px;
+  margin-right: 20px;
+}
+.main-section-2-card-body3 {
+  width: 260px;
+  height: 345px;
+  background-image: url(../../Assets/coursess-03.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-shadow: 3px 3px 10px #00000029;
+  border-radius: 17px;
+  margin-right: 20px;
+}
+.main-section-2-card-body4 {
+  width: 260px;
+  height: 345px;
+  background-image: url(../../Assets/coursess-04.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
   box-shadow: 3px 3px 10px #00000029;
   border-radius: 17px;
   margin-right: 20px;
@@ -379,4 +429,19 @@ height: 48px; */
 .student3{
   background-image: url(../../Assets/Arooba\ Rehman\ -\ DMM.jpeg);
   background-size: 100px;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }

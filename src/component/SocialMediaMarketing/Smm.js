@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import SmmPoster from "../SmmPoster";
 import SmmCourseDescription from "./SmmCourseDescription";
 import SmmCareerPath from "./SmmCareerPath";
@@ -10,6 +10,9 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./Smm.css";
 
 const Smm = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <SmmPoster />

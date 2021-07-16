@@ -8,53 +8,53 @@ const ReactCourseContent=()=>{
           <div className="container mx-5 my-3 px-5">
             <div className="row">
               <div className="col-md-4">
-                <div className="course-content-tab">
+                <div className="course-content-tab d-flex justify-content-center">
                   <p>Introduction to Power Pivot</p>
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="course-content-tab">
+                <div className="course-content-tab d-flex justify-content-center">
                   <p>What is Data</p>
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="course-content-tab">
+                <div className="course-content-tab d-flex justify-content-center">
                   <p>What is Data Modeling</p>
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="course-content-tab">
+                <div className="course-content-tab d-flex justify-content-center">
                   <p>Why we need data modeling in Excel</p>
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="course-content-tab">
+                <div className="course-content-tab d-flex justify-content-center">
                   <p>Creating relationships in excel</p>
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="course-content-tab">
+                <div className="course-content-tab d-flex justify-content-center">
                   <p>Manage data in data model</p>
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="course-content-tab">
-                  <p>Using DAX measures and formula in Power Pivot Data model</p>
+                <div className="course-content-tab d-flex justify-content-center">
+                  <p>Using DAX measures</p>
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="course-content-tab">
+                <div className="course-content-tab d-flex justify-content-center">
                   <p>Creating relations with multiple data in excel</p>
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="course-content-tab">
-                  <p>Learn about Power Pivot Table (Data model pivot table)</p>
+                <div className="course-content-tab d-flex justify-content-center">
+                  <p>Learn about Power Pivot Table </p>
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="course-content-tab">
-                  <p>Learn how Simple pivot table is different with data model pivot table</p>
+                <div className="course-content-tab d-flex justify-content-center">
+                  <p>Learn how Simple pivot table is different</p>
                 </div>
               </div>
              

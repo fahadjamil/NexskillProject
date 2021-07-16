@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import DevelopmentPoster from "../DevelopmentPoster";
 import Footer from "../Footer";
 import CopyRight from "../CopyRight";
@@ -10,6 +10,9 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./GameDesign.css";
 
 const GameDesign = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div>
       <DevelopmentPoster />

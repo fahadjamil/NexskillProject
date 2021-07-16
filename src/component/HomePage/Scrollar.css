@@ -12,6 +12,8 @@
   }
   .card-section {
     height: 400px;
+    padding: 0px 10%;
+    width: 100%;
   }
   div.scroll-menu {
     overflow-x: auto;
@@ -38,12 +40,12 @@
   
   .card-section:hover .arrow-right {
     transition: 500ms ease-out;
-    right: 50px;
+    right: 5%;
     opacity: 1;
   }
   .card-section:hover .arrow-left {
     transition: 500ms ease-out;
-    left: 50px;
+    left: 5%;
     opacity: 1;
   }
   
@@ -52,7 +54,7 @@
     border-radius:50%;
     background-color: #bd0000;
     color: #fff;
-    right: 600px;
+    right:50%;
     top: 250px;
     position: absolute;
     z-index: 10;
@@ -65,7 +67,7 @@
     border-radius: 50%;
     background-color: #bd0000;
     color: #fff;
-    left: 600px;
+    left: 50%;
     top: 250px;
     position: absolute;
     z-index: 10;
@@ -97,8 +99,8 @@
       
   }
   .student-img2{
-    background-image: url(../../Assets/Umer\ Mehmood\ -\ Full\ Stack.jpeg);
-    background-size: 200px;
+    background-image: url(../../Assets/WhatsApp\ Image\ 2021-07-15\ at\ 3.33.48\ AM.jpeg);
+    background-size: 120px;
     background-repeat: no-repeat;
     height: 120px;
     width: 120px;

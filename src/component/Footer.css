@@ -4,6 +4,7 @@
   height: fit-content;
   background-repeat: no-repeat;
   color: #848282;
+  margin-bottom: 0%;
 }
 .footer-logo {
   height: 78px;
@@ -34,4 +35,11 @@
 .footer-contact th{
   margin: 12px 12px 12px 12px;
   padding: 12px 12px 12px 12px;
+}
+.footer a{
+  color: #848282 !important;
+}
+.footer a:link{
+  text-decoration: none;
+  color: #848282 !important;
 }

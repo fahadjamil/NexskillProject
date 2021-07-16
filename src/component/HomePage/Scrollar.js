@@ -17,7 +17,7 @@ const Scrollar = () => {
   return (
     <>
       <div className="container-fluid testimonial-card-section">
-        <div className="card-section container">
+        <div className="card-section">
           <div className="scroll-menu " ref={box}>
             <div className="scroll-card mx-2">
               <div className="student-img1"></div>
@@ -33,8 +33,8 @@ const Scrollar = () => {
             </div>
             <div className="scroll-card mx-2">
               <div className="student-img2"></div>
-              <h1 className="card-heading">Saima Tariq</h1>
-              <p className="card-heading-detail">Graphic Designing</p>
+              <h1 className="card-heading">Umer Mehmood</h1>
+              <p className="card-heading-detail">Full Stack Developer</p>
 
               <p className="card-paragraph">
                 My experience at Nexskill was really good,<br /> I learned a lot in a

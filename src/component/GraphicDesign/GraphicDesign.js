@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./GraphicDesign.css";
 import DesigningPoster from "../DesigningPoster";
 import GraphicCourseDescription from "./GraphicCourseDescription";
@@ -10,6 +10,9 @@ import CopyRight from "../CopyRight";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const GraphiDesign = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <DesigningPoster />

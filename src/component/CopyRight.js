@@ -12,11 +12,23 @@ const CopyRight = () => {
         <div>
           <p>Copyright © 2020 Nexskill Be Productive.</p>
         </div>
-        <div className="row">
-          <img className="footer-links" src={img1} alt="img-1" />
-          <img className="footer-links" src={img2} alt="img-2" />
-          <img className="footer-links" src={img3} alt="img-3" />
-          <img className="footer-links" src={img4} alt="img-4" />
+        <div className="d-flex">
+          
+          <a href="https://www.instagram.com/nexskill/?hl=en" target="_blank">
+            {" "}
+            <img className="footer-links" src={img2} alt="img-2" />
+          </a>
+          <a href="https://www.facebook.com/Nexskill/" target="_blank">
+            {" "}
+            <img className="footer-links" src={img3} alt="img-3" />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/nexskilltrainings/?originalSubdomain=pk"
+            target="_blank"
+          >
+            {" "}
+            <img className="footer-links" src={img4} alt="img-4" />
+          </a>
         </div>
         <div className="d-flex ">
           <p className="mx-2">Privacy Policy</p>

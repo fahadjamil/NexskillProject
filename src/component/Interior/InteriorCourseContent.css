@@ -2,16 +2,6 @@
     font-weight: 500;
 }
 .course-content-tab{
-    width: 230px;
-    height: 60px;
-    font-size: 16px;
-    font-weight: 500;
-    color:#848282;
-    background-color: #fff;
-    text-align: center;
-    border-radius: 10px;
-    padding-top: 15px;
-    margin-top: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 
 }
