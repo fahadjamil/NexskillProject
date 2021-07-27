@@ -11,13 +11,13 @@ const Header = () => {
       <div className="col-md-3 offset-1 d-flex align-items-center justify-content-around">
         <img src={NexskillLogo} className="logo" alt="nexskill" />
         <div className="dropdown d-flex justify-content-center">
-          <div className="dropbtn d-flex px-3 py-2">
+          <div className="dropbtn header_drop_btn d-flex px-3 py-2">
             Explore
             <div className="dropicon">
               <RiArrowDropDownLine size={20} />{" "}
             </div>
           </div>
-          <div className="dropdown-content">
+          <div className="dropdown-content header_drop">
             <div className="dropdown-content-headings">Goals</div>
             <a>Take a Free Course </a>
             <a>

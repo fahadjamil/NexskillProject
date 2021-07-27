@@ -1,0 +1,40 @@
+.learning{
+    background-image: url(../../Assets/banner\ image.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 700px;
+    background-color:#ececec2d;
+    background-blend-mode:overlay; 
+}
+.learning-heading{
+    color: #d00000;
+    font: normal normal bold 50px/46px Lato;
+    letter-spacing: 0.5px;
+}
+.learning-content-1{
+ font: normal normal bold 34px/46px Lato;
+  letter-spacing: 0.34px;
+  color: #000000;
+  opacity: 1;
+}
+.learning-content-2{
+    font: normal normal medium 18px/24px Lato;
+  letter-spacing: 0.3px;
+  line-height: 1.5;
+  color: #555353;
+  opacity: 1;
+  font-weight: 700;
+}
+.learning-content-btn{
+    width: 200px;
+  height: 45px;
+  background: transparent linear-gradient(180deg, #ff3334 0%, #801a1a 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 4px 6px 10px #00000029;
+  border-radius: 8px;
+  opacity: 1;
+  font: normal normal bold 16px/24px Lato;
+  letter-spacing: 0.38px;
+  color: #ffffff;
+}

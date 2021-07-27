@@ -1,0 +1,13 @@
+.main-section-5 {
+    background: #ffffff 0% 0% no-repeat padding-box;
+  }
+  .main-section-5-header {
+    font: normal normal bold 40px/40px Lato;
+    letter-spacing: 0.8px;
+    color: #3d3d3d;
+  }
+  @media screen and (max-width: 600px) {
+    .main-section-5-logo{
+        width: 400px;
+    }
+  }

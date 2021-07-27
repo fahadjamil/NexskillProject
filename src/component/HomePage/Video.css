@@ -1,0 +1,24 @@
+.main-body-2 {
+  
+    padding: 5%;
+    background-size: cover;
+    background-image: url(../../Assets/My\ Post.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+   
+  }
+  .main-body-2-btn:focus .video{
+    display:block;
+  } 
+  .main-body-2-sub {
+    font-weight: bold;
+    font: normal normal 300 35px/40px Lato;
+    letter-spacing: 0.7px;
+    color: #fff !important;
+  }
+  .main-body-2-sub1 {
+    font: normal normal bold 16px/24px Lato;
+    letter-spacing: 0.16px;
+    color: #fff !important;
+    margin-top: 15px;
+  }

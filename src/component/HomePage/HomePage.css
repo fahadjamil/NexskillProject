@@ -5,6 +5,7 @@
 .logo {
   height: 45px;
 }
+
 .dropbtn {
   background: transparent linear-gradient(180deg, #d72a2b 0%, #6c1516 100%) 0%
     0% no-repeat padding-box;
@@ -139,225 +140,15 @@
   margin-left: auto; */
   z-index: 10;
 }
-.body-content-btn {
-  width: 200px;
-  height: 45px;
-  background: transparent linear-gradient(180deg, #ff3334 0%, #801a1a 100%) 0%
-    0% no-repeat padding-box;
-  box-shadow: 4px 6px 10px #00000029;
-  border-radius: 8px;
-  opacity: 1;
-  /* text-align: center; */
-  font: normal normal bold 16px/24px Lato;
-  letter-spacing: 0.38px;
-  color: #ffffff;
-  /* opacity: 1;
-  padding-right: -10px;
-  padding-top: 10px; */
-}
-.body-heading {
-  color: #d00000;
-  font: normal normal bold 50px/46px Lato;
-  letter-spacing: 0.5px;
-}
-.body-content-1 {
-  /* width: 475px;
-  height: 138px;
-  text-align: left; */
-  font: normal normal bold 34px/46px Lato;
-  letter-spacing: 0.34px;
-  color: #000000;
-  opacity: 1;
-}
-.body-content-2 {
-  /* padding-top: 15px; */
-  /* width: 453px;
-  height: 103px; */
-  /* text-align: left; */
-  font: normal normal medium 18px/24px Lato;
-  letter-spacing: 0.3px;
-  line-height: 1.5;
-  color: #848282;
-  opacity: 1;
-}
-.main-body-1-lg {
-  
-  font: normal normal bold 44px/54px Lato;
-  letter-spacing: 0.88px;
-  color: #3d3d3d;
-  opacity: 1;
-}
-.main-body-1-img {
-  padding-left: 10px;
-}
-.main-body-1-sub {
- 
-  background-image: url("../../Assets/PersonImg.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.main-body-1-cards {
-  /* margin-left: 70px;
-  margin-top: 40px;
-  width: 466px;
-  height: 120px; */
-  background: #fefefe 0% 0% no-repeat padding-box;
-  box-shadow: 4px 6px 10px #0000001a;
-  border-radius: 24px;
-  opacity: 1;
-}
-.main-body-1-firstline {
-  /* margin-left: 14px; */
-  font-weight: bold;
-  align-items: center;
-  /* margin-top: 20px;
-  display: flex; */
-}
-.span {
-  /* margin-top: 10px;
-  margin-left: 15px;
-  text-align: left; */
-  padding-left: 10px;
-  font: normal normal bold 26px/28px Lato;
-  letter-spacing: 0.52px;
-  color: #3d3d3d;
-}
-.main-body-1-cards-detail {
-  font: normal normal 300 16px/24px Lato;
-  letter-spacing: 0.32px;
-  color: #3d3d3d;
-  /* margin-top: 10px; */
-  margin-left: 20px;
-}
-.main-body-2 {
-  
-  padding: 5%;
-  background-size: cover;
-  background-image: url(../../Assets/My\ Post.jpg);
-  background-repeat: no-repeat;
-  background-position:center;
- 
-}
 a:link{
   text-decoration: none;
   color: #848282 !important;
 }
-.video{
-  height:500px !important;
-  width:700px!important;
-  
-}
+
 .modal-dialog{
   margin-left: 20%;
   margin-top: 5%;
 }
-
-.main-body-2-btn:focus .video{
-  display:block;
-} 
-.main-body-2-sub {
-  font-weight: bold;
-  font: normal normal 300 35px/40px Lato;
-  letter-spacing: 0.7px;
-  color: #fff !important;
-}
-.main-body-2-sub1 {
-  font: normal normal bold 16px/24px Lato;
-  letter-spacing: 0.16px;
-  color: #fff !important;
-  margin-top: 15px;
-}
-/* .main-body-2-btn {
-  width: 56px;
-  height: 56px;
-  margin-top: 50px;
-} */
-.main-section-2 {
-  background-image: url("../../Assets/background2.png");
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding-bottom: 100px; */
-}
-.main-section-2-heading {
-  /* margin-top: 50px; */
-  font: normal normal bold 40px/40px Lato;
-  letter-spacing: 0.8px;
-  color: #3d3d3d;
-}
-/* .main-section-2-card {
-  display: flex;
-  flex-direction: row;
-  margin-top: 60px;
-} */
-
-.main-section-2-card-body1 {
-  width: 260px;
-  height: 345px;
-  background-image: url(../../Assets/coursess-01.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  box-shadow: 3px 3px 10px #00000029;
-  border-radius: 17px;
-  margin-right: 20px;
-}
-.main-section-2-card-body2 {
-  width: 260px;
-  height: 345px;
-  background-image: url(../../Assets/coursess-02.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  box-shadow: 3px 3px 10px #00000029;
-  border-radius: 17px;
-  margin-right: 20px;
-}
-.main-section-2-card-body3 {
-  width: 260px;
-  height: 345px;
-  background-image: url(../../Assets/coursess-03.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  box-shadow: 3px 3px 10px #00000029;
-  border-radius: 17px;
-  margin-right: 20px;
-}
-.main-section-2-card-body4 {
-  width: 260px;
-  height: 345px;
-  background-image: url(../../Assets/coursess-04.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  box-shadow: 3px 3px 10px #00000029;
-  border-radius: 17px;
-  margin-right: 20px;
-}
-.main-section-2-btn {
-  width: 208px;
-  height: 48px;
-  background: transparent linear-gradient(180deg, #ff3334 0%, #801a1a 100%) 0%
-    0% no-repeat padding-box;
-  box-shadow: 4px 6px 10px #00000029;
-  border-radius: 8px;
-  /* text-align: center;
-  padding: 12px 35px; */
-  font: normal normal bold 16px/24px Lato;
-  letter-spacing: 0.38px;
-  color: #ffffff;
-  /* margin-top: 35px; */
-}
-.main-section-3 {
-  
-  background: #f3f3f3 0% 0% no-repeat padding-box;
-  
-}
-.main-section-3-heading {
-  
-  font: normal normal bold 40px/40px Lato;
-  letter-spacing: 0.8px;
-  color: #3d3d3d;
-}
-
 .main-section-4 {
   /* display: flex;
   flex-direction: column; */
@@ -399,24 +190,7 @@ height: 48px; */
   /* margin-top: 35px; */
   padding: 10px 50px;
 }
-.main-section-5 {
-  /* width: 1366px; */
-  /* height: 1041px; */
-  background: #ffffff 0% 0% no-repeat padding-box;
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column; */
-}
-.main-section-5-header {
-  /* width: 564px;
-height: 48px; */
-  /* text-align: center; */
-  font: normal normal bold 40px/40px Lato;
-  letter-spacing: 0.8px;
-  color: #3d3d3d;
-  /* padding-bottom: 90px; */
-}
+
 .student1{
   background-image: url(../../Assets/Saima\ Tariq\ -\ UIUX.jpeg);
   background-size: 100px;
@@ -441,7 +215,6 @@ height: 48px; */
 .video-responsive iframe {
   left: 0;
   top: 0;
-  height: 100%;
-  width: 100%;
+  
   position: absolute;
 }

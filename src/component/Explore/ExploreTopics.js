@@ -21,25 +21,25 @@ const ExploreTopics = () => {
       <div className="container py-5 ">
         <h1 className="description-heading">Explore Topics and Skills</h1>
         <hr className="hr" />
-        <table>
+        <table >
           <tbody>
-            <tr>
+            <tr >
               <td rowSpan="2">
                 <p className="img1">Account & Finance</p>
-                <img src={img1} alt="1" />
+                <img className="poster1" src={img1} alt="1" />
               </td>
 
-              <td>
+              <td className="popular_course">
                 <p className="img2">Designing</p>
                 <Link to="/graphic">
-                  <img src={img2} alt="2"/>
+                  <img className="poster2" src={img2} alt="2"/>
                 </Link>
               </td>
 
-              <td>
+              <td className="popular_course">
                 <p className="img2">Marketing</p>
                 <Link to="/smm">
-                <img className="my-2" src={img3} alt="3" />
+                <img  className="my-2 poster3" src={img3} alt="3" />
                 </Link>
               </td>
             </tr>
@@ -47,18 +47,18 @@ const ExploreTopics = () => {
               <td>
                 <p className="img2">Development</p>
                 <Link to="/game">
-                <img src={img6} alt="4" />
+                <img className="poster4" src={img6} alt="4" />
                 </Link>
               </td>
               <td rowSpan="2">
                 <p className="img3">Personal Development</p>
-                <img src={img4}  alt="5"/>
+                <img className="poster5" src={img4}  alt="5"/>
               </td>
             </tr>
             <tr>
               <td colSpan="2">
                 <p className="img2">Data Science</p>
-                <img className="mx-2" src={img5} alt="6"/>
+                <img className="mx-2 poster6" src={img5} alt="6"/>
               </td>
             </tr>
           </tbody>

@@ -30,3 +30,56 @@
 }
 
 table{border: none;}
+@media screen and (max-width: 700px) {
+    .poster1{
+        width: 125px;
+      
+    }
+    .poster2{
+        width: 125px;
+    }
+    .poster3{
+        width: 125px;
+    }
+    .poster4{
+        width: 125px;
+    }
+
+    .poster5{
+        width: 125px;
+    }
+    .poster6{
+        width: 260px;
+    }
+    .img1{
+       font-size: 8px;
+       margin-left: 5px;
+       margin-top: 10px;
+    }
+    .img2{
+        font-size: 8px;
+        margin-left: 5px;
+       margin-top: 10px;
+    }
+    .img3{
+        font-size: 8px;
+        margin-left: 5px;
+       margin-top: 10px;
+    }
+    .img4{
+        font-size: 8px;
+        margin-left: 5px;
+       margin-top: 10px;
+    }
+    .img5{
+        font-size: 8px;
+        margin-left: 10px;
+       margin-top: 10px;
+    }
+    .img6{
+        font-size: 8px;
+        margin-left: 20px;
+       margin-top: 10px;
+    }
+
+  }

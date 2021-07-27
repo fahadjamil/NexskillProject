@@ -1,0 +1,52 @@
+.goals{
+    background-image: url(../../Assets/PersonImg.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 700px;
+    background-color:#ececec2d;
+    background-blend-mode:overlay; 
+}
+.main-body-1-lg {
+  
+    font: normal normal bold 44px/54px Lato;
+    letter-spacing: 0.88px;
+    color: #3d3d3d;
+    opacity: 1;
+  }
+  .main-body-1-img {
+    padding-left: 10px;
+  }
+  
+  .main-body-1-cards {
+   
+    background: #fefefe 0% 0% no-repeat padding-box;
+    box-shadow: 4px 6px 10px #0000001a;
+    border-radius: 24px;
+    opacity: 1;
+  }
+  
+
+.main-body-1-firstline {
+    /* margin-left: 14px; */
+    font-weight: bold;
+    align-items: center;
+    /* margin-top: 20px;
+    display: flex; */
+  }
+  .span {
+    /* margin-top: 10px;
+    margin-left: 15px;
+    text-align: left; */
+    padding-left: 10px;
+    font: normal normal bold 26px/28px Lato;
+    letter-spacing: 0.52px;
+    color: #3d3d3d;
+  }
+  .main-body-1-cards-detail {
+    font: normal normal 300 16px/24px Lato;
+    letter-spacing: 0.32px;
+    color: #3d3d3d;
+    /* margin-top: 10px; */
+    margin-left: 20px;
+  }
