@@ -38,3 +38,12 @@
   letter-spacing: 0.38px;
   color: #ffffff;
 }
+@media screen and (max-width: 600px) {
+ .learning-heading{
+   font-size: 30px;
+ }
+ .learning-content-1{
+  font-size: 30px;
+}
+
+ }

@@ -64,3 +64,19 @@
     color: #ffffff;
     
   }
+  @media screen and (max-width: 600px) {
+    .main-section-2-card-body1{
+        margin-left: 50px !important;
+    }
+    .main-section-2-card-body2{
+      margin-left: 50px !important;
+  }
+  .main-section-2-card-body3{
+    margin-left: 50px !important;
+}
+.main-section-2-card-body4{
+  margin-left: 50px !important;
+}
+
+
+   }
