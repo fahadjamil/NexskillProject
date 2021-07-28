@@ -1,10 +1,7 @@
 .description-heading{
     font-weight: 500;
 }
-.course-content-tab{
-    
 
-}
 @media screen and (max-width: 600px) {
     .course-content-tab{
         margin-left: -80px !important;
