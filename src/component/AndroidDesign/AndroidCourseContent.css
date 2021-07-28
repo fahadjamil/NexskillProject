@@ -5,3 +5,8 @@
     
 
 }
+@media screen and (max-width: 600px) {
+    .course-content-tab{
+        margin-left: -80px !important;
+    }
+   }

@@ -43,3 +43,16 @@
   text-decoration: none;
   color: #848282 !important;
 }
+@media screen and (max-width: 600px) {
+  .footer{
+      font-size: 10px;
+  }
+  .footer-detail{
+    padding-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .link-section{
+    padding-top: 0 !important;
+    margin: 0;
+  }
+}

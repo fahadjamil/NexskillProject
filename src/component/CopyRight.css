@@ -9,3 +9,8 @@
     box-shadow:  3px 3px 3px rgba(105, 105, 107, 0.13);
     border-radius: 50%;
   }
+  @media screen and (max-width: 600px) {
+   .copy-right{
+       font-size: 10px;
+   }
+  }

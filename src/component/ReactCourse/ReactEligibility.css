@@ -30,3 +30,8 @@ ul {
   
   background-color:#da0303;
 }
+@media screen and (max-width: 600px) {
+  .enroll{
+      margin-left: 10px !important;
+  }
+ }

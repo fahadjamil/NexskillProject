@@ -32,24 +32,24 @@
 table{border: none;}
 @media screen and (max-width: 700px) {
     .poster1{
-        width: 125px;
+        width: 100px;
       
     }
     .poster2{
-        width: 125px;
+        width: 100px;
     }
     .poster3{
-        width: 125px;
+        width: 100px;
     }
     .poster4{
-        width: 125px;
+        width: 100px;
     }
 
     .poster5{
-        width: 125px;
+        width: 100px;
     }
     .poster6{
-        width: 260px;
+        width: 200px;
     }
     .img1{
        font-size: 8px;

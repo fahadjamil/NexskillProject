@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="container-fluid footer">
       <div className="container">
         <div className="row">
-          <div className="col-md-4 mt-5  py-5 ">
+          <div className="col-md-4 mt-5 footer-detail py-5 ">
           <Link to="/">   <img class="footer-logo" src={nexskill} alt="f-logo" /></Link>
             <p className="footer-text">
               At NeXskill we believe that talent is universal and

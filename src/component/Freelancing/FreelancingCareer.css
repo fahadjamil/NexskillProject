@@ -9,3 +9,8 @@ description-heading{
     height: 250px;
     margin-left: 200px;
 }
+@media screen and (max-width: 600px) {
+    .career-pic{
+        margin-left: 10px !important;
+    }
+   }
