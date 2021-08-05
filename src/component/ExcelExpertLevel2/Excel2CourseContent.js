@@ -24,7 +24,7 @@ const ReactCourseContent=()=>{
               </div>
               <div className="col-md-4">
                 <div className="course-content-tab d-flex justify-content-center">
-                  <p>Why we need data modeling in Excel</p>
+                  <p>Why we need data modeling</p>
                 </div>
               </div>
               <div className="col-md-4">
@@ -44,7 +44,7 @@ const ReactCourseContent=()=>{
               </div>
               <div className="col-md-4">
                 <div className="course-content-tab d-flex justify-content-center">
-                  <p>Creating relations with multiple data in excel</p>
+                  <p>Creating relations with multiple data</p>
                 </div>
               </div>
               <div className="col-md-4">
@@ -54,7 +54,7 @@ const ReactCourseContent=()=>{
               </div>
               <div className="col-md-4">
                 <div className="course-content-tab d-flex justify-content-center">
-                  <p>Learn how Simple pivot table is different</p>
+                  <p>How Simple pivot table is different</p>
                 </div>
               </div>
              

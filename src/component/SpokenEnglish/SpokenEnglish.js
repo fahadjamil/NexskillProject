@@ -13,7 +13,7 @@ const SpokenEnglish = () => {
   return (
     <>
       <SpokenPoster />
-      <div className="header">
+      <div className="secondheader">
         <div className="container ">
           <ul>
             <AnchorLink href="#CourseDescription" className="active">

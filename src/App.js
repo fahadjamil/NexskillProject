@@ -32,13 +32,24 @@ import Explore from "./component/Explore/ExploreTopics";
 import Enroll from "./component/EnrollPage/Enroll";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
+import AboutUs from "./component/AboutUS/AboutUs";
+import Events from "./component/Events/Events";
+import Blogs from "./component/Blogs/Blogs";
+import LaunchCareer from "./component/LaunchCareer/LaunchCareer";
+import EarnCertificate from "./component/EarnCertificate/EarnCertificate";
+
+
 
 const App = () => {
+  
   return (
+   
     <Router>
       <div>
         <Switch>
+        
           <Route path="/" exact>
+
             <HomePage />
           </Route>
           <Route path="/auth">
@@ -46,6 +57,21 @@ const App = () => {
           </Route>
           <Route path="/allSubjects">
             <Explore />
+          </Route>
+          <Route path="/aboutUs">
+            <AboutUs />
+          </Route>
+          <Route path="/events">
+            <Events/>
+          </Route>
+          <Route path="/blogs">
+            <Blogs/>
+          </Route>
+          <Route path="/launchcareer">
+            <LaunchCareer/>
+          </Route>
+          <Route path="/earncertificate">
+            <EarnCertificate/>
           </Route>
 
 

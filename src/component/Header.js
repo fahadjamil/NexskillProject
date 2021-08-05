@@ -2,14 +2,14 @@ import React from "react";
 import NexskillLogo from "../Assets/Nexskill logo.png";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { BiSearch, BiChevronRight } from "react-icons/bi";
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 import "./Header.css";
 const Header = () => {
   return (
-    <div className=" d-flex pt-4 align-items-center header">
+    <div className=" d-flex py-1 align-items-center header">
       <div className="col-md-3 offset-1 d-flex align-items-center justify-content-around">
-        <img src={NexskillLogo} className="logo" alt="nexskill" />
+      <Link to="/"> <img src={NexskillLogo} className="logo" alt="nexskill" /></Link>
         <div className="dropdown d-flex justify-content-center">
           <div className="dropbtn header_drop_btn d-flex px-3 py-2">
             Explore
@@ -19,35 +19,39 @@ const Header = () => {
           </div>
           <div className="dropdown-content header_drop">
             <div className="dropdown-content-headings">Goals</div>
-            <a>Take a Free Course </a>
-            <a>
+            {/* <a>Take a Free Course </a> */}
+            {/* <a>
               <div className="d-flex justify-content-between">
                 Earn a Degree{" "}
                 <span>
                   <BiChevronRight size={15} />
                 </span>
               </div>
-            </a>
+            </a> */}
             <a>
+              <Link to="/earncertificate">
               <div className="d-flex justify-content-between">
                 Earn a Certificate{" "}
                 <span>
                   <BiChevronRight size={15} />
                 </span>
               </div>
+              </Link>
             </a>
             <a>
+            <Link to="/launchcareer">
               <div className="d-flex justify-content-between">
                 Launch or advance your career{" "}
                 <span>
                   <BiChevronRight size={15} />
                 </span>
               </div>
+              </Link>
             </a>
             <div className="dropdown-content-headings">Subjects</div>
             <Link to="/game">
               <div className="d-flex justify-content-between">
-                Devlopment
+                Development
                 <span>
                   <BiChevronRight size={15} />
                 </span>

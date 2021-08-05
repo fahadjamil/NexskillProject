@@ -1,0 +1,43 @@
+.eventSection{
+    background-image: url(../../Assets/backgroundGroup.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.event-heading{
+    font-size: 30px;
+    font-weight:700;
+   padding-top: 50px;
+   color: #3D3D3D;
+}
+.news{
+    width: 350px;
+    height: 300px;
+}
+.news-heading{
+    font-size: 25px;
+    font-weight: 700;
+    color: #D00000;
+    
+}
+.news-location{
+    font-size: 12px;
+    font-weight: bold;
+    color: #707070;
+    
+}
+.news-detail{
+    font-size: 14px;
+    color: #707070;
+}
+.news-line{
+   
+    color: #D00000;
+}
+
+@media screen and (max-width: 600px) {
+    .news{
+        width:200px;
+        height: 200px;
+    }
+   }

@@ -13,7 +13,7 @@ const TextileCourse = () => {
   return (
     <>
       <DesigningPoster />
-      <div className="header">
+      <div className="secondheader">
         <div className="container ">
           <ul>
             <AnchorLink href="#CourseDescription" className="active">

@@ -9,5 +9,9 @@
   @media screen and (max-width: 600px) {
     .main-section-5-logo{
         width: 350px;
+        margin-left: 5px;
+    }
+    .main-section-5-header{
+      font-size: 22px;
     }
   }

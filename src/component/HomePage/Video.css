@@ -22,3 +22,12 @@
     color: #fff !important;
     margin-top: 15px;
   }
+  @media screen and (max-width: 600px) {
+    .main-body-2-sub{
+      font-size: 25px;
+    }
+    .main-body-2-sub1{
+      font-size: 14px;
+    }
+    
+     }

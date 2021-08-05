@@ -11,9 +11,17 @@
   width: 200px;
   margin-top: 100px;
 }
+.footer ul {
+ padding-left: 0px;
+ 
+}
 .footer li {
   list-style-type: none !important;
-  padding: 10px;
+  padding-top: 10px;
+  margin-left: 0;
+  padding-left: 0px;
+  align-content: center;
+ 
 }
 .link-section {
   padding-top: 70px;
@@ -43,9 +51,12 @@
   text-decoration: none;
   color: #848282 !important;
 }
+.footer-contact span{
+  font-weight:500;
+}
 @media screen and (max-width: 600px) {
   .footer{
-      font-size: 10px;
+      font-size: 14px;
   }
   .footer-detail{
     padding-top: 0 !important;
@@ -54,5 +65,14 @@
   .link-section{
     padding-top: 0 !important;
     margin: 0;
+  }
+  .home{
+    width: 50%;
+  }
+  .popular{
+    width:50%;
+  }
+  .footer-contact{
+    width: 100%;
   }
 }

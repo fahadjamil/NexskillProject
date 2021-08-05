@@ -34,7 +34,7 @@ const GraphicCourseContent = () => {
           </div>
           <div className="col-md-4">
             <div className="course-content-tab d-flex justify-content-center">
-              <p>Color Theory according to Design Aesthetics</p>
+              <p>Color Theory according to Design</p>
             </div>
           </div>
           <div className="col-md-4">

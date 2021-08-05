@@ -50,3 +50,16 @@
     /* margin-top: 10px; */
     margin-left: 20px;
   }
+  @media screen and (max-width: 600px) {
+   .span{
+     font-size: 18px;
+   }
+   .main-body-1-cards-detail{
+     font-size: 14px;
+     margin-left: 80px;
+   }
+   .goals{
+     height: 700px !important;
+   }
+   
+    }

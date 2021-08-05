@@ -9,52 +9,52 @@ const AmazonCourseContent=()=>{
             <div className="row">
               <div className="col-md-4 ">
                 <div className="course-content-tab d-flex justify-content-center">
-                  Seller & Product feedback monitoring
+                 <p> Seller & Product feedback monitoring</p>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="course-content-tab d-flex justify-content-center">
-                  	Secure samples from suppliers
+                <p>	Secure samples from suppliers</p>
                 </div>
               </div>
               <div className="col-md-4">
               <div className="course-content-tab d-flex justify-content-center">
-                  Evaluate new and existing tools
+              <p> Evaluate new and existing tools</p>
                 </div>
               </div>
               <div className="col-md-4">
               <div className="course-content-tab d-flex justify-content-center">
-                  Create Cases and Monitor all the open
+              <p>  Create Cases and Monitor all the open</p>
                 </div>
               </div>
               <div className="col-md-4">
               <div className="course-content-tab d-flex justify-content-center">
-                  Social media management
+              <p>  Social media management</p>
                 </div>
               </div>
               <div className="col-md-4">
               <div className="course-content-tab d-flex justify-content-center">
-                  Inventory Management
+              <p>    Inventory Management</p>
                 </div>
               </div>
               <div className="col-md-4">
               <div className="course-content-tab d-flex justify-content-center">
-                  Amazon PPC Management
+              <p>  Amazon PPC Management</p>
                 </div>
               </div>
               <div className="col-md-4">
               <div className="course-content-tab d-flex justify-content-center">
-                  Product Sourcing
+              <p>   Product Sourcing</p>
                 </div>
               </div>
               <div className="col-md-4">
               <div className="course-content-tab d-flex justify-content-center">
-                  Competitor Research
+              <p>  Competitor Research</p>
                 </div>
               </div>
               <div className="col-md-4">
               <div className="course-content-tab d-flex justify-content-center">
-                  Product Optimization
+              <p>  Product Optimization</p>
                 </div>
               </div>
             </div>

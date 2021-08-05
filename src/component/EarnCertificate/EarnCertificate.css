@@ -1,0 +1,58 @@
+.graphicDesignTop{
+    background-image: url(../../Assets/backgroundGroup.png);
+ 
+}
+.second-background{
+    background-image: url(../Images/Path.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 600px;
+ 
+}
+.header{
+    
+    height: 50px;
+}
+
+.header li{
+    float: left;
+    margin-right: 50px;
+}
+
+.ozi-text, .second-main p{
+    font-size: 15px;
+    color: #848282;
+    font-weight: 400;
+    padding-right: 20px;
+}
+
+.main-group{
+    background-color: #d9d9d956;
+}
+
+.ozi-main {
+    border-right: 2px solid #d00000;
+    padding-right: 20px;
+}
+
+
+.m-solution, .web-dev{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 15px;
+    color:#848282;
+}
+
+.offer-heading{
+    color: #191919;
+}
+
+.course-offer h3{
+    color: #848282;
+    margin: 0;
+}
+
+.course-offer p{
+    color: #848282;
+    margin: 0;
+}

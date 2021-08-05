@@ -23,7 +23,7 @@ const Goals=()=>{
                   <span className="span">Learn the latest skills </span>
                 </div>
                 <div className="main-body-1-cards-detail mt-2">
-                  Like Business Analytics, Graphic Design, Python, and more
+                From Graphic design, Python to Business analytics and E-commerce.
                 </div>
               </div>
               <div className="main-body-1-cards px-2 py-3 m-4">
@@ -33,7 +33,7 @@ const Goals=()=>{
                   <span className="span">Career Development </span>
                 </div>
                 <div className="main-body-1-cards-detail mt-2">
-                  In high-demand fields like IT,AI and Cloud Engineering
+                Build your career forward in high demand fields like IT, cloud engineering and AI.
                 </div>
               </div>
               <div className="main-body-1-cards px-2 py-3 m-4">
@@ -44,11 +44,10 @@ const Goals=()=>{
                     alt="img-three"
                     className="main-body-1-img"
                   />
-                  <span className="span">Earn a Certificate or Degree </span>
+                  <span className="span">Earn a degree or certificate </span>
                 </div>
                 <div className="main-body-1-cards-detail mt-2">
-                  From a Leading University in Business, Computer Science and
-                  More
+                Get your certificate or degree in business, computer science and more.
                 </div>
               </div>
               <div className="main-body-1-cards px-2 py-3 m-4 ">
@@ -62,7 +61,7 @@ const Goals=()=>{
                   <span className="span">Upskill your Organization </span>
                 </div>
                 <div className="main-body-1-cards-detail mt-2">
-                  With On-Demand Training and Development Programs
+                Boost your skills with on demand training and development programs.
                 </div>
               </div>
 

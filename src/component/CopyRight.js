@@ -16,18 +16,18 @@ const CopyRight = () => {
           
           <a href="https://www.instagram.com/nexskill/?hl=en" target="_blank">
             {" "}
-            <img className="footer-links" src={img2} alt="img-2" />
+            <img className="footer-links mx-2" src={img2} alt="img-2" />
           </a>
           <a href="https://www.facebook.com/Nexskill/" target="_blank">
             {" "}
-            <img className="footer-links" src={img3} alt="img-3" />
+            <img className="footer-links mx-2" src={img3} alt="img-3" />
           </a>
           <a
             href="https://www.linkedin.com/company/nexskilltrainings/?originalSubdomain=pk"
             target="_blank"
           >
             {" "}
-            <img className="footer-links" src={img4} alt="img-4" />
+            <img className="footer-links mx-2" src={img4} alt="img-4" />
           </a>
         </div>
         <div className="d-flex ">

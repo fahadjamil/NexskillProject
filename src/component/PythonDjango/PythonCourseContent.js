@@ -9,7 +9,7 @@ const PythonCourseContent=()=>{
             <div className="row">
               <div className="col-md-4">
                 <div className="course-content-tab d-flex justify-content-center">
-                  <p>Introduction to Django and its advantages</p>
+                  <p>Introduction to Django</p>
                 </div>
               </div>
               <div className="col-md-4">
@@ -115,7 +115,7 @@ const PythonCourseContent=()=>{
               </div>
               <div className="col-md-4">
                 <div className="course-content-tab d-flex justify-content-center">
-                  <p>Django form handling process Model Forms</p>
+                  <p>Django form handling process</p>
                 </div>
               </div>
               <div className="col-md-4">

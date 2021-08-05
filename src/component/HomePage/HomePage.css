@@ -1,10 +1,11 @@
-.main-section-1 {
-  background-image: url("../../Assets//backgroundGroup.png");
+.main{
   overflow: hidden;
 }
+
 .logo {
   height: 45px;
 }
+
 
 .dropbtn {
   background: transparent linear-gradient(180deg, #d72a2b 0%, #6c1516 100%) 0%
@@ -218,3 +219,12 @@ height: 48px; */
   
   position: absolute;
 }
+@media screen and (max-width: 600px) {
+  .main-section-4-header{
+    font-size: 22px;
+  }
+  .main-section-4-detail{
+    font-size: 14px;
+  }
+  
+   }

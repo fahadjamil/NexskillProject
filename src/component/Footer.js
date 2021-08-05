@@ -1,6 +1,6 @@
 import React from "react";
 import nexskill from "./Images/Nexskilllogo.png";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import "./Footer.css";
 
 
@@ -23,23 +23,21 @@ const Footer = () => {
           </div>
           <div className="col-md-8 link-section">
             <div className="row">
-              <div className="col-md-3">
+              <div className="col-md-4 home">
                 <h3>Quick Links</h3>
                 <ul>
                 <Link to="/">  <li>Home</li></Link>
-                  <li>About Us</li>
+                <Link to="/aboutUs">   <li>About Us</li></Link>
                   <a href="https://forms.gle/v61fz6DzmaZMXCNu9" target="_blank"> <li>Contact</li></a>
-                  <li>Events</li>
-                  <li>Blogs</li>
+                  <Link to="/events">  <li>Events</li></Link>
+                  <Link to="/blogs"><li>Blogs</li></Link>
                 </ul>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-3 popular">
                 <h3>Popular</h3>
                 <ul>
-                  <li>Registration</li>
-                  <li>Gallery</li>
-                  <li>SEO</li>
-                  <li>Certification</li>
+                <a href="https://forms.gle/DQjn7om8z6ScaV28A" target="_blank"> <li>Registration</li></a> 
+                 
                   <Link to="/allSubjects">  <li>Courses</li></Link>
                 </ul>
               </div>
@@ -48,17 +46,17 @@ const Footer = () => {
                 <thead>
                   <tr>
                     <th >
-                      <p>Wajeeha:<br/> <span>03096663330</span></p>
-                      <p>Arslan:<br/> <span>0309-6663331</span></p>
-                      <p>Sana:<br/> <span>0309-2226664</span></p>
-                      <p>Parya:<br/> <span>0300-7753330</span></p>
+                      <p> <span>03096663330</span></p>
+                      <p> <span>0309-6663331</span></p>
+                      <p> <span>0309-2226664</span></p>
+                      <p> <span>0300-7753330</span></p>
                     </th>
                     <th>
                       {" "}
-                      <p>Laiba:<br/> <span>0300-7753331</span></p>
-                      <p>Rimsha:<br/> <span>0300-7753334</span></p>
-                      <p>Sheraz:<br/> <span>0303-7775034</span></p>
-                      <p>Iqra:<br/> <span>0303-7775035</span></p>
+                      <p> <span>0300-7753331</span></p>
+                      <p> <span>0300-7753334</span></p>
+                      <p> <span>0303-7775034</span></p>
+                      <p> <span>0303-7775035</span></p>
                     </th>
                   </tr>
                 </thead>

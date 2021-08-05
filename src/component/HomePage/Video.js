@@ -24,10 +24,9 @@ const Video=()=>{
             </div>
           </div>
 
-          <div className="main-body-2-sub pb-2">Course Spotlight</div>
+          <div className="main-body-2-sub pb-2">“An overview of Nexskill” </div>
           <div className="main-body-2-sub1 pb-3">
-            Lorem ispsum dolor sit amet, consetetur sadpipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut.
+          “We believe in youth and women empowerment and career development”
           </div>
           <div
             className=" mt-2"

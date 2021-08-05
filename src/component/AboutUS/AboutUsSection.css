@@ -1,0 +1,37 @@
+.about-us{
+    background-image: url(../../Assets/backgroundGroup.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.about-heading{
+    font-size: 40px;
+    font-weight:bold;
+    color: #3D3D3D;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about-text{
+    color: #707070;
+    padding-right: 30px;
+}
+.img1{
+    
+    align-items: center;
+}
+.about-us-poster{
+    
+    margin-top: 100px;
+    
+}
+.poster{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 100px;
+}
+@media screen and (max-width: 600px) {
+    .poster{
+        width: 100%;
+        height: 120px;
+    }
+   }

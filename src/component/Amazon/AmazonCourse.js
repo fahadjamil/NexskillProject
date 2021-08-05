@@ -16,7 +16,7 @@ const AmazonCourse = () => {
   return (
     <>
       <AmazonPoster />
-      <div className="header">
+      <div className="amazon header">
         <div className="container ">
           <ul>
             <AnchorLink href="#CourseDescription" className="active">

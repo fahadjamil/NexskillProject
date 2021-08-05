@@ -30,7 +30,7 @@ const DevelopmentPoster = () => {
 
           <Link to="/react">
             <button className="btn designing-buttons mx-2 px-4">
-              React.js Development
+              React.JS Development
             </button>
           </Link>
 

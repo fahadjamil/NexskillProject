@@ -143,3 +143,33 @@
   border-radius: 50%;
   
 }
+@media screen and (max-width: 600px) {
+  div.scroll-menu div.scroll-card {
+    width: 260px;
+    height: 300px;
+  }
+  .card-heading{
+    font-size: 25px;
+  }
+  .card-paragraph{
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    font-size: 10px;
+    font-weight: 100;
+  }
+  .card-heading-detail{
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    font-size: 14px;
+    font-weight: 100;
+  }
+  .arrow-left {
+    padding: 5px;
+    top: 180px;
+  }
+  .arrow-right {
+    padding: 5px;
+    top: 180px;
+  }
+   
+}
